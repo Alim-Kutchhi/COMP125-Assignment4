@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="Assignment4.css">    
+    </head>
+    <body>
+    
+        <header><h1>Member Registration:</h1></header><br>
+    
+    <div id="wrapper"><br>
+    <form name="form" onsubmit="return FirstName() && LastName() && Address() && City() && PostalCode() && ProvinceValues() && Age() && VerifyAndConfirmPassword()  && Email() && Confirmation()" method="post" action="Confirm.html">
+
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="txtFirst" maxlength="100" placeholder="Your First Name"><br><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="txtLast"maxlength="100" placeholder="Your Last Name"><br><br>
+
+    <label for="address">Address:</label><br>
+    <input type="text" name="txtAdd" maxlength="100" placeholder="Address"><br><br>
+
+    <label for="city">City:</label><br>
+    <input type="text" name="txtCity" maxlength="100" placeholder="City"><br><br>
+    
+    <label for="postalCode">Postal Code:</label><br>
+    <input type="text" name="txtPC" maxlength="100" placeholder="Postal Code"><br><br>
+    
+    <label for="province">Province: (Must use initials)</label><br>
+    <input type="text" id="txtPro" maxlength="100" placeholder="Province"><br><br>
+
+    <label for="age">Age:</label><br>
+    <input type="number" name="numAge" maxlength="100" placeholder="Age"><br><br>
+
+    <label for="password">Password:</label><br>
+    <input type="password" name="passPass" id="passPass" maxlength="100" placeholder="Password"><br><br>
+
+    <span id="message"></span>
+
+
+    <label for="Cpassword">Confirm Password:</label><br>
+    <input type="password" id="passCPass" name="passCPass" maxlength="100" placeholder="Password"><br><br>
+    
+    <span id="messageC"></span>
+    <span id="confirm"></span>
+
+
+    <label>Your Email:</label><br>
+    <input name="txtEmail" type="text" maxlength="100" placeholder="Email"><br><br>
+
+    <input type="submit" value="Register Now">
+    <input type="reset" value="Clear Form">
+
+        </form><br>
+
+    <script src="Assignment4.js"></script>
+    </div>
+    <br>
+    <footer>    
+        <br><hr>
+        <h5>&copy; Copyright Alim Kutchhi #301135845 - COMP125 - Summer 2021.</h5>
+        <a href="../../index.html"><h5>Home Page</h5></a></p><hr><br>
+    </footer>
+    </body>
+</html>

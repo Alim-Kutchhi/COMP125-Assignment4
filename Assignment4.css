@@ -1,0 +1,73 @@
+body
+{
+  background-color: rgb(43, 43, 43);
+  background-image: url(images/City.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 50%;
+  min-width: none;
+}
+main
+{
+  background-color:rgb(43, 43, 43);
+  border-style: dashed;
+  border-color: cyan;
+
+}
+
+#wrapper{
+  background-color: rgb(52, 62, 70);
+  margin-top: auto;
+  margin-bottom: auto;
+  border-style: dashed;
+}
+
+.error
+{
+  background-color: pink;
+}
+header
+{
+  background-image: url(/images/BannerBricks.png);
+  text-align: center;
+  color: #FFF;
+  border-style: dashed;
+  border-color: white;
+}
+footer
+{
+  border-style:dashed;
+  border-color: crimson;
+
+  background-color: rgb(52, 62, 70);
+}
+
+hr
+{
+  color: crimson;
+  background-color: crimson;
+
+  height: 3px;
+}
+a:link {
+  color: #ab77ff;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #ff629e;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ff2922;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #fff;
+  }
+  
